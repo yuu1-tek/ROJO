@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    background:#FBFBFB;
+    font-family:'Roboto', sans-serif;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px;
+}
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.hero h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    color:#666;
+    font-size:18px;
+}
+
+/* FEATURED */
+
+.featured{
+    margin-bottom:60px;
+}
+
+.featured h2{
+    font-family:'Poppins', sans-serif;
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.bikes{
+    display:flex;
+    justify-content:space-between;
+    gap:90px;
+}
+
+.bike{
+    background:rgb(216, 216, 216);
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 50px 50px rgba(0,0,0,0.1);
+}
+
+.bike img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:4px;
+}
+
+.bike p{
+    margin-top:10px;
+    font-weight:500;
+}
+
+/* QUOTES */
+
+.quotes{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.quotes p{
+    font-style:italic;
+    margin:10px 0;
+    color:#444;
+}
+
+/* VIDEO */
+
+.video{
+    text-align:center;
+    object-fit: cover;
+}
+
+.video h2{
+    font-family:'Poppins', sans-serif;
+    margin-bottom:20px;
+}
+
+.video iframe{
+    width:100%;
+    max-width:700px;
+    height:400px;
+    border:none;
+    border-radius:6px;
+}
